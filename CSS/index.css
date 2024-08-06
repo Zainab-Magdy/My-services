@@ -25,7 +25,7 @@
 .navbar {
     background: #eee1e1;
     color: #3964f1;
-    padding: 0 2rem;
+    padding: 0 .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,9 +94,9 @@
 
 .nav-logo img {
     /* max-height: 100px; */
-    width: 150px;
+    width: 170px;
     /* قم بتعديل العرض كما يناسبك */
-    height: auto;
+    height: 150px;
     /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
 }
 
