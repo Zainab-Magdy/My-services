@@ -36,11 +36,27 @@
     box-shadow: 1px 1px 5px #858383;
 
 }
-
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #3964f1;
+    font-size: 1rem;
+    transition: color 0.3s;
+    padding: 0 20px;
+  }
 .navbar .toggle-btn {
     color: #3964f1;
     font-size: 3rem;
-    /* display: none; */
+    display: none;
     cursor: pointer;
 }
 
@@ -94,17 +110,74 @@
 
 .nav-logo img {
     /* max-height: 100px; */
-    width: 170px;
+    width: 150px;
     /* قم بتعديل العرض كما يناسبك */
-    height: 150px;
+    height: 100px;
     /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
+
+    border: #c6cacf solid;
+    border-radius: 150px;
+}
+.header{
+    font-size: 2rem;
+    color: #3964f1;
+    /* padding: 20px; */
+    /* border: solid #3964f1; */
+    /* border-radius: 50px; */
+    text-shadow: 5px 5px rgba(57, 100, 241, .5);
+    /* position: relative; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.left-section{
+    background-color: #f0f0f0;
+    /* display: inline; */
+    max-width: 25%;
+    /* height: 100vh; */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* إضافة ظل */
+}
+.remain{
+    flex: 1;
+    /* background-color: #25D366; */
+    padding: 20px;
+    margin: 20px;
+}
+.def{
+    margin: 20px;
+    padding: 20px 0;
 }
 
 
 @media (max-width: 768px) {
+    /* .nav-links{
+        display: none;
+    }
+    .nav-links li {
+        margin: 0 10px;
+      } */
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+      }
+    
+      .nav-links li {
+        text-align: center;
+        margin: 0 10px;
+      }
     .navbar .nav-container .toggle-btn {
         display: block;
     }
+
 
 
 }
