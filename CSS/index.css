@@ -30,7 +30,7 @@ html, body {
 }
 h1, h3, p, span{
     display: inline-block;  /* يضمن أن الكلمة تتصرف كوحدة واحدة */
-    white-space: nowrap;    /* يمنع انقسام الكلمات */
+    /* white-space: nowrap;    يمنع انقسام الكلمات */
     word-break: keep-all;   /* يمنع تكسير الكلمات حتى عند الحاجة */
     overflow-wrap: normal;  /* يسمح بالنقل للسطر فقط عند الضرورة */
     max-width: 100%;  
