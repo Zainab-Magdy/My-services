@@ -13,6 +13,13 @@
     text-decoration: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+html, body {
+    overflow-x: hidden; /* يمنع التمرير الأفقي */
+    width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
+    word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
+    overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
+
+}
 
 /* .whatsapp-button i {
     font-size: 30px;
@@ -21,7 +28,13 @@
 #icon {
     font-size: 30px;
 }
-
+h1, h3, p, span{
+    display: inline-block;  /* يضمن أن الكلمة تتصرف كوحدة واحدة */
+    white-space: nowrap;    /* يمنع انقسام الكلمات */
+    word-break: keep-all;   /* يمنع تكسير الكلمات حتى عند الحاجة */
+    overflow-wrap: normal;  /* يسمح بالنقل للسطر فقط عند الضرورة */
+    max-width: 100%;  
+}
 .navbar {
     background: #eee1e1;
     color: #3964f1;
@@ -118,48 +131,47 @@
     border: #c6cacf solid;
     border-radius: 150px;
 }
+
 .header{
     font-size: 2rem;
     color: #3964f1;
     /* padding: 20px; */
     /* border: solid #3964f1; */
     /* border-radius: 50px; */
-    text-shadow: 5px 5px rgba(57, 100, 241, .5);
+    /* text-shadow: 5px 5px rgba(57, 100, 241, .5); */
     /* position: relative; */
 }
 .container{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    flex-wrap: wrap;
 }
 .left-section{
     background-color: #f0f0f0;
     /* display: inline; */
     max-width: 25%;
-    /* height: 100vh; */
+    height: 100vh;
     padding: 20px;
     margin: 10px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* إضافة ظل */
+    overflow-y: auto; 
+    position: fixed;
 }
 .remain{
     flex: 1;
     /* background-color: #25D366; */
     padding: 20px;
     margin: 20px;
+    margin-left: 30%;
 }
-.def{
-    margin: 20px;
-    padding: 20px 0;
+
+.main-content{
+    padding: 10px;
 }
 
 
 @media (max-width: 768px) {
-    /* .nav-links{
-        display: none;
-    }
-    .nav-links li {
-        margin: 0 10px;
-      } */
       .nav-links {
         display: none;
         flex-direction: column;
@@ -176,6 +188,16 @@
       }
     .navbar .nav-container .toggle-btn {
         display: block;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .left-section{
+        display: none;
+    }
+    .remain{
+        width: 100%;
+        margin-left: 20px;
     }
 
 
