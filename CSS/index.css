@@ -14,7 +14,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 html, body {
-    /* overflow-x: hidden; يمنع التمرير الأفقي */
+     overflow-x: hidden; /*يمنع التمرير الأفقي */
     width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
     word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
     overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
@@ -44,7 +44,7 @@ h1, h3, p, span{
     align-items: center;
     position: sticky;
     top: 0;
-    /* width: 100%; */
+    width: 100%;
     z-index: 1000;
     box-shadow: 1px 1px 5px #858383;
 
