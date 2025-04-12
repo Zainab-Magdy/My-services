@@ -16,7 +16,7 @@
 html, body {
     /* margin-right: 50px; */
      overflow-x: hidden; /*يمنع التمرير الأفقي */
-    width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
+    /*width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
     word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
     overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
     font-family: 'Marhey', sans-serif;
@@ -165,7 +165,7 @@ h1, h3, p, span{
     /* background-color: #25D366; */
     padding: 20px;
     margin: 20px;
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 .main-content{
@@ -201,8 +201,9 @@ h1, h3, p, span{
         display: none;
     }
     .remain{
-        width: 100%;
-        margin-left: 20px;
+        /* width: 100%; */
+        margin: auto;
+        
     }
 
 
