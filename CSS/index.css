@@ -14,11 +14,11 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 html, body {
-    overflow-x: hidden; /* يمنع التمرير الأفقي */
+    /* overflow-x: hidden; يمنع التمرير الأفقي */
     width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
     word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
     overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
-
+    font-family: 'Marhey', sans-serif;
 }
 
 /* .whatsapp-button i {
@@ -49,7 +49,7 @@ h1, h3, p, span{
     box-shadow: 1px 1px 5px #858383;
 
 }
-.nav-links {
+/* .nav-links {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -65,13 +65,13 @@ h1, h3, p, span{
     font-size: 1rem;
     transition: color 0.3s;
     padding: 0 20px;
-  }
+  } */
 .navbar .toggle-btn {
     color: #3964f1;
     font-size: 3rem;
-    display: none;
+    /* display: none; */
     cursor: pointer;
-}
+} */
 
 .navbar .toggle-btn i {
     display: inline-block;
@@ -79,11 +79,10 @@ h1, h3, p, span{
 
 /* dropdown menue*/
 .navbar .dropdown {
-    display: none;
     position: absolute;
     right: 4rem;
     top: 90px;
-    background: #3964f1;
+    background: #eee1e1;
     width: auto;
     height: 0;
     text-align: center;
@@ -107,7 +106,7 @@ h1, h3, p, span{
 
 .navbar .dropdown li a {
     text-decoration: none;
-    color: #fff;
+    color: #3964f1;
 }
 
 .navbar .dropdown li a:hover {
@@ -123,17 +122,15 @@ h1, h3, p, span{
 
 .nav-logo img {
     /* max-height: 100px; */
-    width: 150px;
+    width: 120px;
     /* قم بتعديل العرض كما يناسبك */
-    height: 100px;
+    height: 120px;
     /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
 
-    border: #c6cacf solid;
-    border-radius: 150px;
 }
 
 .header{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #3964f1;
     /* padding: 20px; */
     /* border: solid #3964f1; */
@@ -172,7 +169,7 @@ h1, h3, p, span{
 
 
 @media (max-width: 768px) {
-      .nav-links {
+      /* .nav-links {
         display: none;
         flex-direction: column;
         background-color: #333;
@@ -188,7 +185,10 @@ h1, h3, p, span{
       }
     .navbar .nav-container .toggle-btn {
         display: block;
-    }
+    } */
+    /* .header{
+        font-size: 1rem;
+    } */
     .container{
         flex-direction: column;
     }
