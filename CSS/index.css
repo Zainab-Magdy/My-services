@@ -99,15 +99,32 @@ h1, h3, p, span{
     width: auto;
     height: 0;
     text-align: center;
-    overflow: hidden;
+    overflow-y: auto;
     padding: 2rem 0.8rem;
     border-radius: 10px;
     transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 0;
 }
+/* استهداف الـ dropdown فقط */
+.navbar .dropdown::-webkit-scrollbar {
+    width: 8px;              /* عرض الشريط */
+  }
+  
+  .navbar .dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;      /* لون الخلفية */
+    border-radius: 10px;
+  }
+  
+  .navbar .dropdown::-webkit-scrollbar-thumb {
+    background: #3964f1;      /* لون الجزء المتحرك */
+    border-radius: 10px;
+  }
+  
+  
+  
 
 .navbar .dropdown.open {
-    height: auto;
+    height: 65%;
     opacity: 1;
     display: block;
 }
@@ -155,34 +172,47 @@ h1, h3, p, span{
     /* position: relative; */
 }
 .container{
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     height: 100vh;
-    flex-wrap: wrap;
-}
-/*.left-section{
-    background-color: #f0f0f0;
-    display: inline; 
-    max-width: 25%;
-    height: 100vh;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
-    overflow-y: auto; 
-    position: fixed;
-}*/
-.remain{
-    flex: 1;
-    /* background-color: #25D366; */
-    padding: 20px;
+    /* flex-wrap: wrap; */
     margin: 20px;
-    /* margin-left: 32%; */
 }
 
-.main-content{
-    padding: 10px;
-}
-:hover
+
+@keyframes slideInRight {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .advanced {
+    animation: slideInRight 1s ease-out;
+  }
+  .container .list li{
+      color: #3964f1;
+  }
+  .container .list li a{
+      text-decoration: none;
+      color: #3964f1;
+  }
+  .list_1{
+    margin-right: 50px;
+  }
+  h3{
+      display: block;
+      color: rgb(22, 174, 235);
+      text-decoration: underline rgb(22, 174, 235);
+  }
+
+  .para{
+      max-width: 50%;
+  }
 
 
 @media (max-width: 768px) {
