@@ -23,10 +23,7 @@
     background-color: #db4437;
     bottom: 90px; /* نخليه فوق الواتساب بمسافة */
 }
-html, body {
-    /* margin-right: 50px; */
-     overflow-x: hidden; /*يمنع التمرير الأفقي */
-    /*width: 100%; /* يضمن أن العناصر لا تتجاوز العرض */ 
+html, body { 
     word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
     overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
     font-family: 'Marhey', sans-serif;
