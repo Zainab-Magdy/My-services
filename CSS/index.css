@@ -99,32 +99,18 @@ h1, h3, p, span{
     width: auto;
     height: 0;
     text-align: center;
-    overflow-y: auto;
+    overflow: hidden;
     padding: 2rem 0.8rem;
     border-radius: 10px;
     transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 0;
 }
-/* استهداف الـ dropdown فقط */
-.navbar .dropdown::-webkit-scrollbar {
-    width: 8px;              /* عرض الشريط */
-  }
-  
-  .navbar .dropdown::-webkit-scrollbar-track {
-    background: #f1f1f1;      /* لون الخلفية */
-    border-radius: 10px;
-  }
-  
-  .navbar .dropdown::-webkit-scrollbar-thumb {
-    background: #3964f1;      /* لون الجزء المتحرك */
-    border-radius: 10px;
-  }
   
   
   
 
 .navbar .dropdown.open {
-    height: 65%;
+    height: auto;
     opacity: 1;
     display: block;
 }
