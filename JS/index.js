@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Some elements are not found in the DOM');
     }
 });
+
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ 
+      behavior: "smooth"  // حركة ناعمة
+    });
+  }
+
+  
 function changeStyle(id){
     let attr = document.getElementById(id);
     attr.style.backgroundColor="#b3aaaa";

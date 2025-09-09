@@ -124,6 +124,9 @@ h1, h3, p, span{
     text-decoration: none;
     color: #3964f1;
 }
+a{
+    cursor: pointer;
+}
 
 .navbar .dropdown li a:hover {
     color: #ccc;
