@@ -187,8 +187,19 @@ a{
       text-decoration: none;
       color: #3964f1;
   }
-  .list_1{
-    margin-right: 50px;
+  .list_1, .list_2, .list_3{
+    margin-right: 5%;
+  }
+  .list_3 li{
+      cursor: pointer;
+      color: #3964f1;
+  }
+  .list_3_content{
+      display: none;
+      margin-right: 10%;
+  }
+  .list_3_content li{
+      color: #000;
   }
   h3{
       display: block;
@@ -197,7 +208,7 @@ a{
   }
 
   .para{
-      max-width: 50%;
+      max-width: 75%;
   }
 
 

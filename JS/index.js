@@ -42,6 +42,9 @@ window.closeMenu = function () {
         bars_icon.className = 'fas fa-bars';
     }
 };
+function goTo(id){
+    document.getElementById(id).style.display='block';
+}
 function changeStyle(id){
     let attr = document.getElementById(id);
     attr.style.backgroundColor="#b3aaaa";
