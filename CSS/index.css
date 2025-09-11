@@ -123,6 +123,8 @@ h1, h3, p, span{
 }
 a{
     cursor: pointer;
+    text-decoration: none;
+    color: #3964f1;
 }
 
 .navbar .dropdown li a:hover {
@@ -191,16 +193,15 @@ a{
     margin-right: 5%;
   }
   .list_3 li{
-      cursor: pointer;
       color: #3964f1;
   }
-  .list_3_content{
+  /* .list_3_content{
       display: none;
       margin-right: 10%;
   }
   .list_3_content li{
       color: #000;
-  }
+  } */
   h3{
       display: block;
       color: rgb(22, 174, 235);

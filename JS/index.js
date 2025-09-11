@@ -49,9 +49,6 @@ function changeStyle(id){
     let attr = document.getElementById(id);
     attr.style.backgroundColor="#b3aaaa";
 }
-document.getElementById("to-first-para").onclick = function() {
-    changeStyle("first-para");
-};
 // function toggleMenu() {
 //     const navLinks = document.querySelector('.nav-links');
 //     navLinks.classList.toggle('active');

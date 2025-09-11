@@ -1,0 +1,53 @@
+html, body { 
+    word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
+    overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
+    font-family: 'Marhey', sans-serif;
+    direction: rtl;
+}
+.navbar {
+    
+    background: #eee1e1;
+    color: #3964f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 1px 1px 5px #858383;
+
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.nav-logo img {
+    /* max-height: 100px; */
+    width: 120px;
+    /* قم بتعديل العرض كما يناسبك */
+    height: 120px;
+    /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
+
+}
+
+.header{
+    text-align: center;     /* يخلي الكلام في النص */
+  direction: rtl;         /* يظبط الاتجاه من اليمين لليسار */
+    font-size: 1rem;
+    color: #3964f1;
+    /* padding: 20px; */
+    /* border: solid #3964f1; */
+    /* border-radius: 50px; */
+    /* text-shadow: 5px 5px rgba(57, 100, 241, .5); */
+    /* position: relative; */
+}
+.back img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
