@@ -159,6 +159,14 @@ a{
     /* text-shadow: 5px 5px rgba(57, 100, 241, .5); */
     /* position: relative; */
 }
+figure img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 
+    5px 0 10px rgba(0, 0, 0, 0.3),   /* يمين */
+    0 5px 10px rgba(0, 0, 0, 0.3),   /* تحت */
+    0 -5px 10px rgba(0, 0, 0, 0.3);  /* فوق */
+}
 .container{
     /* display: flex; */
     /* flex-direction: row; */
@@ -193,7 +201,8 @@ a{
     margin-right: 5%;
   }
   .list_3 li{
-      color: #3964f1;
+      list-style: none;
+      margin-bottom: 50px;
   }
   /* .list_3_content{
       display: none;
