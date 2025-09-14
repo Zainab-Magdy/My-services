@@ -162,10 +162,13 @@ a{
 figure img{
     width: 150px;
     height: 150px;
-    box-shadow: 
+     box-shadow: 
     5px 0 10px rgba(0, 0, 0, 0.3),   /* يمين */
     0 5px 10px rgba(0, 0, 0, 0.3),   /* تحت */
     0 -5px 10px rgba(0, 0, 0, 0.3);  /* فوق */
+}
+span{
+    text-decoration: underline;
 }
 .container{
     /* display: flex; */
