@@ -168,7 +168,13 @@ figure img{
     0 -5px 10px rgba(0, 0, 0, 0.3);  /* فوق */
 }
 span{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    display: block;
+    text-align: center;
+}
+span img{
+    width: 20px;
+    height: 20px;
 }
 .container{
     /* display: flex; */
@@ -200,12 +206,19 @@ span{
       text-decoration: none;
       color: #3964f1;
   }
-  .list_1, .list_2, .list_3{
+  .list_1, .list_2, .list_3, .list_4{
     margin-right: 5%;
   }
   .list_3 li{
       list-style: none;
       margin-bottom: 50px;
+  }
+  .list_4_span{
+    text-align: right;
+    color: rgb(91, 177, 5);
+  }
+  .list_4 li{
+    list-style: inside;
   }
   /* .list_3_content{
       display: none;
@@ -220,7 +233,7 @@ span{
       text-decoration: underline rgb(22, 174, 235);
   }
 
-  .para{
+  p{
       max-width: 75%;
   }
 
