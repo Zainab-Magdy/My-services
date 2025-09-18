@@ -214,11 +214,16 @@ span img{
       margin-bottom: 50px;
   }
   .list_4_span{
+    display: inline;
     text-align: right;
     color: rgb(91, 177, 5);
   }
+  .list_4 p{
+    display: block;
+  }
   .list_4 li{
-    list-style: inside;
+    /* list-style: inside; */
+    list-style-position: outside
   }
   /* .list_3_content{
       display: none;
