@@ -208,6 +208,10 @@ span img{
   .list_1, .list_2, .list_3, .list_4{
     margin-right: 5%;
   }
+  .list_1, .list_2, .list_4{
+     background: #bbb9b9;
+    box-shadow: 1px 1px 5px #858383;
+  }
   .list_3 li{
       list-style: none;
       margin-bottom: 50px;
