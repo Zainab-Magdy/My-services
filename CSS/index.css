@@ -197,6 +197,9 @@ span img{
   
   .advanced {
     animation: slideInRight 1s ease-out;
+    background-image: url("../images/advanced.jpeg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
   .container .list li{
       color: #3964f1;
@@ -205,16 +208,25 @@ span img{
       text-decoration: none;
       color: #3964f1;
   }
-  .list_1, .list_2, .list_3, .list_4{
+  .list_1, .list_2, .list_4{
     margin-right: 5%;
   }
-  .list_1, .list_2, .list_4{
-     background: #bbb9b9;
-    box-shadow: 1px 1px 5px #858383;
+  .list_3{
+    align-items: center;
+    text-align: center;
+    background-color: #3964f1;
+    margin: 0 25%;
+    padding: 50px 0;
+    border-radius: 7px;
   }
   .list_3 li{
       list-style: none;
       margin-bottom: 50px;
+      background-color: #4e73ec;
+      padding: 10px;
+      margin: 20px;
+      border-radius: 7px;
+      color: #beb5b5;
   }
   .list_4_span{
     display: inline;
