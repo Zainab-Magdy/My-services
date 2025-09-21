@@ -46,7 +46,8 @@ h1, h3, p, span{
 }
 .navbar {
     
-    background: #eee1e1;
+    background: #dddfd9;
+    box-shadow: 1px 1px 5px #858383;
     color: #3964f1;
     display: flex;
     justify-content: space-between;
@@ -55,8 +56,6 @@ h1, h3, p, span{
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 1px 1px 5px #858383;
-
 }
 /* .nav-links {
     display: flex;
