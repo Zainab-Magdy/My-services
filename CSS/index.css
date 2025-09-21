@@ -215,7 +215,7 @@ span img{
     align-items: center;
     text-align: center;
     background-color: #3964f1;
-    margin: 0 25%;
+    margin: 0 15%;
     padding: 50px 0;
     border-radius: 7px;
   }
@@ -224,7 +224,7 @@ span img{
       margin-bottom: 50px;
       background-color: #4e73ec;
       padding: 10px 0;
-      margin: 20px 5px;
+      margin: 20px 10px;
       border-radius: 7px;
       color: #beb5b5;
   }
