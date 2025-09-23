@@ -200,13 +200,12 @@ span img{
     background-image: url("../images/advanced.jpeg");
      background-size: 100% 100%;
     background-repeat: no-repeat;
+    color: #fff;
   }
-  .container .list li{
-      color: #3964f1;
-  }
-  .container .list li a{
-      text-decoration: none;
-      color: #3964f1;
+  
+  .advanced h1{
+    max-width: 20%;
+    margin: 10px;
   }
   .list_1, .list_2, .list_4{
     margin-right: 5%;
@@ -215,7 +214,7 @@ span img{
     align-items: center;
     text-align: center;
     background-color: #3964f1;
-    margin: 0 15%;
+    margin: 0 10%;
     padding: 50px 0;
     border-radius: 7px;
   }
@@ -224,7 +223,7 @@ span img{
       margin-bottom: 50px;
       background-color: #4e73ec;
       padding: 10px 0;
-      margin: 20px 10px;
+      margin: 20px 10%;
       border-radius: 7px;
       color: #beb5b5;
   }
