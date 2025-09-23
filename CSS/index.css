@@ -146,18 +146,6 @@ a{
     /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
 
 }
-
-.header{
-    text-align: center;     /* يخلي الكلام في النص */
-  direction: rtl;         /* يظبط الاتجاه من اليمين لليسار */
-    font-size: 1rem;
-    color: #3964f1;
-    /* padding: 20px; */
-    /* border: solid #3964f1; */
-    /* border-radius: 50px; */
-    /* text-shadow: 5px 5px rgba(57, 100, 241, .5); */
-    /* position: relative; */
-}
 figure img{
     width: 100%;
     height: 100%;
