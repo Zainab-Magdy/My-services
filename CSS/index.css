@@ -13,13 +13,13 @@
     text-decoration: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-#whatsapp-button {
+#whatsapp-button{
     background-color: #25D366;
     bottom: 20px;
 }
 
 /* زر Gmail */
-#gmail-button {
+#gmail-button{
     background-color: #db4437;
     bottom: 90px; /* نخليه فوق الواتساب بمسافة */
 }
@@ -245,6 +245,13 @@ span img{
 
   p{
       max-width: 75%;
+  }
+
+  .footer{
+    width: 100%;
+    height: 100px;
+    background: #dddfd9;
+    box-shadow: 1px 1px 5px #858383;
   }
 
 
