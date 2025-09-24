@@ -276,9 +276,9 @@ span img{
 .footer .social-icons a.twitter  { color: #1DA1F2; }
 .footer .social-icons a.phone    { color: #34b7f1; }  /* أزرق فاتح للتليفون */
 
-.footer p {
-  font-size: 14px;
-  margin: 0;
+.footer h3 {
+    color: #3964f1;
+    text-decoration: none;
 }
 
 
