@@ -152,6 +152,7 @@ figure img{
     5px 0 10px rgba(0, 0, 0, 0.3),   /* يمين */
     0 5px 10px rgba(0, 0, 0, 0.3),   /* تحت */
     0 -5px 10px rgba(0, 0, 0, 0.3);  /* فوق */
+    background: #fff;
 }
 span{
     /* text-decoration: underline; */
@@ -211,7 +212,7 @@ span img{
   .list_3 li{
       list-style: none;
       margin-bottom: 50px;
-      background-color: #4e73ec;
+      background-color: #6082f3;
       padding: 10px 0;
       margin: 20px 20%;
       border-radius: 7px;
