@@ -202,12 +202,12 @@ span img{
   .list_1, .list_2, .list_4, .list_5{
     margin-right: 5%;
   }
-  .see{
+  .see, .message, .value{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .see img{
+  .see img, .message img, .value img{
     width: 100px;
     height: 100px;
     margin-top: 25%;
