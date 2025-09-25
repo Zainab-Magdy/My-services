@@ -287,9 +287,11 @@ span img{
 .footer .social-icons a.whatsapp { color: #25D366; }
 .footer .social-icons a.email    { color: #D44638; }  /* أحمر (جيميل) */
 .footer .social-icons a.linkedin { color: #0077b5; }
-.footer .social-icons a.twitter  { color: #1DA1F2; }
 .footer .social-icons a.phone    { color: #34b7f1; }  /* أزرق فاتح للتليفون */
-
+.footer .social-icons .x-icon {
+  width: 28px;   /* نفس حجم الأيقونات */
+  height: 28px;
+}
 .footer h3 {
     color: #3964f1;
     text-decoration: none;
