@@ -204,7 +204,8 @@ span img{
   }
   .list_2{
     width: 100%;
-    padding-right: 5%;
+    padding-right: 10%;
+    margin-right: 10%;
   }
   .see, .message, .value{
     display: flex;
