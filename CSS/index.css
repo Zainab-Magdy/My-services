@@ -202,6 +202,19 @@ span img{
   .list_1, .list_2, .list_4, .list_5{
     margin-right: 5%;
   }
+  .see{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .see img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px #858383;
+
+  }
   .list_3{
     align-items: center;
     text-align: center;
