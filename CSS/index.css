@@ -208,7 +208,7 @@ span img{
   .list_2_1{
     padding-right: 10%;
   }
-  .see, .message, .value{
+  .see, .message, .value, .feature, .cust{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -216,6 +216,7 @@ span img{
     margin-bottom: 5px;
     padding: 5px 5px 5px 0;
     box-shadow: 1px 1px 5px #858383;
+    border-radius: 5px;
   }
   .see img, .message img, .value img{
     width: 100px;
