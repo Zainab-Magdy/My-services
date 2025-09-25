@@ -199,15 +199,20 @@ span img{
     /* max-width: 20%; */
     margin: 10px;
   }
-  .list_1, .list_2, .list_4, .list_5{
+  .list_1, .list_4, .list_5{
     margin-right: 5%;
+  }
+  .list_2{
+    width: 100%;
+    padding-right: 5%;
   }
   .see, .message, .value{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px;
-    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 0;
     box-shadow: 1px 1px 5px #858383;
   }
   .see img, .message img, .value img{
