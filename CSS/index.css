@@ -204,7 +204,7 @@ span img{
   .list_3{
     align-items: center;
     text-align: center;
-    background-color: #3964f1;
+    /* background-color: #3964f1; */
     /* margin: 0 10%; */
     padding: 50px 0;
     border-radius: 7px;
@@ -250,7 +250,7 @@ span img{
   .footer {
   background: #dddfd9;
   /* color: #fff; */
-  text-align: center;
+  /* text-align: center; */
   padding: 20px 10px;
   border-radius: 5px;
 }
@@ -261,7 +261,7 @@ span img{
 
 .footer .social-icons a {
   font-size: 28px;
-  margin: 0 7px;
+  margin: 0 12px;
   transition: transform 0.3s;
 }
 
