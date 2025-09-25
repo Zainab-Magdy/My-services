@@ -206,6 +206,9 @@ span img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #858383;
   }
   .see img, .message img, .value img{
     width: 100px;
