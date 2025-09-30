@@ -13,18 +13,25 @@
     text-decoration: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-#whatsapp-button{
+
+#whatsapp-button {
     background-color: #25D366;
     bottom: 20px;
 }
+
 /* زر Gmail */
-#gmail-button{
+#gmail-button {
     background-color: #db4437;
-    bottom: 90px; /* نخليه فوق الواتساب بمسافة */
+    bottom: 90px;
+    /* نخليه فوق الواتساب بمسافة */
 }
-html, body { 
-    word-wrap: break-word; /* تأكد من أن الكلمات تنزل للسطر الجديد */
-    overflow-wrap: break-word; /* تأكد من أن النصوص لا تختفي */
+
+html,
+body {
+    word-wrap: break-word;
+    /* تأكد من أن الكلمات تنزل للسطر الجديد */
+    overflow-wrap: break-word;
+    /* تأكد من أن النصوص لا تختفي */
     font-family: 'Marhey', sans-serif;
     direction: rtl;
 }
@@ -36,15 +43,23 @@ html, body {
 #icon {
     font-size: 30px;
 }
-h1, h3, p, span{
-    display: inline-block;  /* يضمن أن الكلمة تتصرف كوحدة واحدة */
+
+h1,
+h3,
+p,
+span {
+    display: inline-block;
+    /* يضمن أن الكلمة تتصرف كوحدة واحدة */
     /* white-space: nowrap;    يمنع انقسام الكلمات */
-    word-break: keep-all;   /* يمنع تكسير الكلمات حتى عند الحاجة */
-    overflow-wrap: normal;  /* يسمح بالنقل للسطر فقط عند الضرورة */
-    max-width: 100%;  
+    word-break: keep-all;
+    /* يمنع تكسير الكلمات حتى عند الحاجة */
+    overflow-wrap: normal;
+    /* يسمح بالنقل للسطر فقط عند الضرورة */
+    max-width: 100%;
 }
+
 .navbar {
-    
+
     background: #dddfd9;
     box-shadow: 1px 1px 5px #858383;
     color: #3964f1;
@@ -56,6 +71,7 @@ h1, h3, p, span{
     width: 100%;
     z-index: 1000;
 }
+
 /* .nav-links {
     display: flex;
     list-style: none;
@@ -79,9 +95,9 @@ h1, h3, p, span{
     /* display: none; */
     cursor: pointer;
 
-} */
+}
 
-.navbar .toggle-btn i {
+*/ .navbar .toggle-btn i {
     display: inline-block;
 }
 
@@ -100,9 +116,9 @@ h1, h3, p, span{
     transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 0;
 }
-  
-  
-  
+
+
+
 
 .navbar .dropdown.open {
     height: auto;
@@ -119,7 +135,8 @@ h1, h3, p, span{
     text-decoration: none;
     color: #3964f1;
 }
-a{
+
+a {
     cursor: pointer;
     text-decoration: none;
     color: #3964f1;
@@ -145,26 +162,33 @@ a{
     /* تأكد من الحفاظ على نسبة العرض إلى الارتفاع */
 
 }
-figure img{
+
+figure img {
     width: 100%;
     height: 100%;
-     box-shadow: 
-    5px 0 10px rgba(0, 0, 0, 0.3),   /* يمين */
-    0 5px 10px rgba(0, 0, 0, 0.3),   /* تحت */
-    0 -5px 10px rgba(0, 0, 0, 0.3);  /* فوق */
+    box-shadow:
+        5px 0 10px rgba(0, 0, 0, 0.3),
+        /* يمين */
+        0 5px 10px rgba(0, 0, 0, 0.3),
+        /* تحت */
+        0 -5px 10px rgba(0, 0, 0, 0.3);
+    /* فوق */
     background: #fff;
 }
-span{
+
+span {
     /* text-decoration: underline; */
     display: block;
     text-align: center;
     margin-top: 15px;
 }
-span img{
+
+span img {
     width: 20px;
     height: 20px;
 }
-.container{
+
+.container {
     /* display: flex; */
     /* flex-direction: row; */
     height: 100vh;
@@ -175,40 +199,52 @@ span img{
 
 @keyframes slideInRight {
     from {
-      transform: translateX(100px);
-      opacity: 0;
+        transform: translateX(100px);
+        opacity: 0;
     }
+
     to {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  .advanced {
+}
+
+.advanced {
     animation: slideInRight 1s ease-out;
     background-image: url("../images/advanced.jpeg");
-     background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: #fff;
     height: 30%;
     text-align: center;
     border-radius: 5px;
-  }
-  
-  .advanced h2{
+}
+
+.advanced h2 {
     /* max-width: 20%; */
     margin: 10px;
-  }
-  .list_1, .list_2_1, .list_4, .list_5{
+}
+
+.list_1,
+.list_2_1,
+.list_4,
+.list_5 {
     padding-right: 10%;
-  }
-  .list_2{
+}
+
+.list_2 {
     width: 100%;
-  }
-  .list_2_1{
+}
+
+.list_2_1 {
     padding-right: 10%;
-  }
-  .see, .message, .value, .feature, .cust{
+}
+
+.see,
+.message,
+.value,
+.feature,
+.cust {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -217,92 +253,124 @@ span img{
     padding: 5px 5px 5px 0;
     box-shadow: 1px 1px 5px #858383;
     border-radius: 5px;
-  }
-  .see img, .message img, .value img{
+}
+
+.see img,
+.message img,
+.value img {
     width: 100px;
     height: 100px;
     margin-top: 25%;
     border-radius: 50px;
     box-shadow: 1px 1px 5px #858383;
 
-  }
-  .list_3{
+}
+
+.list_3 {
     align-items: center;
     text-align: center;
     /* background-color: #3964f1; */
     /* margin: 0 10%; */
     padding: 50px 0;
     border-radius: 7px;
-  }
-  .list_3 li{
-      list-style: none;
-      margin-bottom: 50px;
-      background-color: #6082f3;
-      padding: 10px 0;
-      margin: 20px 20%;
-      border-radius: 7px;
-      color: black;
-  }
-  .list_4_span{
+}
+
+.list_3 li {
+    list-style: none;
+    margin-bottom: 50px;
+    background-color: #6082f3;
+    padding: 10px 0;
+    margin: 20px 20%;
+    border-radius: 7px;
+    color: black;
+}
+
+.list_4_span {
     display: inline;
     text-align: right;
     color: rgb(91, 177, 5);
-  }
-  .list_4 p{
+}
+
+.list_4 p {
     display: block;
-  }
-  .list_4 li{
+}
+
+.list_4 li {
     /* list-style: inside; */
     list-style-position: outside
-  }
-  /* .list_3_content{
+}
+
+/* .list_3_content{
       display: none;
       margin-right: 10%;
   }
   .list_3_content li{
       color: #000;
   } */
-  h3{
-      display: block;
-      color: rgb(22, 174, 235);
-      text-decoration: underline rgb(22, 174, 235);
-  }
+h3 {
+    display: block;
+    color: rgb(22, 174, 235);
+    text-decoration: underline rgb(22, 174, 235);
+}
 
-  p{
-      max-width: 75%;
-  }
+p {
+    max-width: 75%;
+}
 
-  .footer {
-  background: #dddfd9;
-  /* color: #fff; */
-  /* text-align: center; */
-  padding: 20px 10px;
-  border-radius: 5px;
+.footer {
+    background: #dddfd9;
+    /* color: #fff; */
+    /* text-align: center; */
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 .footer .social-icons {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;
 }
 
 .footer .social-icons a {
-  font-size: 28px;
-  margin: 0 12px;
-  transition: transform 0.3s;
+    font-size: 28px;
+    margin: 0 12px;
+    transition: transform 0.3s;
 }
 
 .footer .social-icons a:hover {
-  transform: scale(1.2); /* تكبير بسيط عند المرور */
+    transform: scale(1.2);
+    /* تكبير بسيط عند المرور */
 }
 
 /* ألوان المنصات */
-.footer .social-icons a.whatsapp { color: #25D366; }
-.footer .social-icons a.email    { color: #D44638; }  /* أحمر (جيميل) */
-.footer .social-icons a.linkedin { color: #0077b5; }
-.footer .social-icons a.phone    { color: #34b7f1; }  /* أزرق فاتح للتليفون */
-.footer .social-icons .x-icon {
-  width: 28px;   /* نفس حجم الأيقونات */
-  height: 28px;
+.footer .social-icons a.whatsapp {
+    color: #25D366;
 }
+
+.footer .social-icons a.email {
+    color: #D44638;
+}
+
+/* أحمر (جيميل) */
+.footer .social-icons a.linkedin {
+    color: #0077b5;
+}
+
+.footer .social-icons a.instagram {
+    color: #E1306C;
+    /* لون إنستجرام الوردي */
+}
+
+.footer .social-icons a.phone {
+    color: #34b7f1;
+}
+
+/* أزرق فاتح للتليفون */
+.footer .social-icons .x-icon {
+    width: 28px;
+    /* نفس حجم الأيقونات */
+    height: 28px;
+}
+
 .footer h3 {
     color: #3964f1;
     text-decoration: none;
@@ -311,7 +379,8 @@ span img{
 
 
 @media (max-width: 768px) {
-      /* .nav-links {
+
+    /* .nav-links {
         display: none;
         flex-direction: column;
         background-color: #333;
@@ -331,16 +400,17 @@ span img{
     /* .header{
         font-size: 1rem;
     } */
-    .container{
+    .container {
         flex-direction: column;
     }
+
     /* .left-section{
         display: none;
     } */
-    .remain{
+    .remain {
         /* width: 100%; */
         margin: auto;
-        
+
     }
 
 
